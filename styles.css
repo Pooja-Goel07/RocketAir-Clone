@@ -10,17 +10,21 @@
     align-items: center;
     background-color: black;
     padding: 18px 30px;
-    height: 80px;
+    height: 70px;
 }
 
 .mainlogo {
-    width: 40px;
-    height: 40px;
+    margin-top: 10px;
+    margin-left: 11px;
+    width: 43px;
+    height: 43px;
     background-image: url('logo.png'); /* Default image */
     background-size:cover;
 }
 
 .getin{
+    margin-left: 10px;
+    margin-top: 10px;
     background-color: #DBFF00;
     border-radius: 50px;
     display: flex;
@@ -42,6 +46,7 @@
     
 }
 .right-box {
+    
     width: 250px;
     height: 40px;
     background-color:black;
@@ -50,12 +55,103 @@
     align-items: center;
 }
 .menuicon{
-    font-size: 55px;
-    font-weight: 300;
+    margin-right: 5px;
+    padding: 4px;
+    margin-top: 8px;
+    font-size: 50px;
+    font-weight: 100;
     color:white;
     padding-bottom: 10px;
 }
 .menuicon:hover{
     color:  #e9fe2b;
     
+}
+.heading{
+    height: 51vh;
+    background-color: black;
+    /* border: 2px solid white; */
+    display: flex;
+    flex-direction: column;
+    letter-spacing: -0.7px;
+    line-height: .9;
+    padding: 10px;
+
+}
+.Digital{
+    margin: 10px;
+    margin-top: 0px;
+    margin-left: 40px;
+    color: white;
+    font-family: Aeonikpro, sans-serif;
+        font-size: 93px;
+        font-weight: 400;
+}
+.experiences{
+    display: inline-block;
+    margin-top: 8px;
+    margin-left: 40px;
+    color: white;
+    font-family: Aeonikpro, sans-serif;
+        font-size: 93px;
+        font-weight: 400;
+        margin-right: 40px;
+        margin-bottom: 16px;
+        
+}
+.title-line {
+    display: inline-block;
+    width: 51%;        /* Set width to 65% of the container */
+    height: 1px;       /* Thin horizontal line */
+    background-color: grey; /* Line color (change as needed) */
+    margin: 20px ;   /* Center the line and add spacing */
+    margin-left: 20px;
+    margin-right: 19px;
+}
+
+.WinBy{
+
+    color: white;
+    margin-right: 50px;
+    font-size: 93px;
+        font-weight: 400;
+        font-family: Aeonikpro, sans-serif;
+        text-align: end;
+}
+sup{
+    vertical-align: top;
+    top: -5px;
+    font-size: 0.2em; 
+    letter-spacing: -1px;
+    font-family:monospace;
+    
+}
+
+.CheckOut{
+    display: inline-block;
+    color: white;
+    font-size: 0.9em;
+    margin-top: 5px; 
+    font-family:monospace;
+}
+.arrow{
+    transform: scaleX(2); /* Stretch width */;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    display: inline-block;
+    color: white;
+    padding-bottom: 5px;
+    width: 15px;
+    margin-top: 0px;
+}
+.headerEnd{
+    height: 52px;
+     background-color: black;
+     display: flex;
+     justify-content:end;
+}
+.headerRightBox{
+    width: 170px;
+    display: flex;
+    justify-content: space-around;
+    margin-right: 50px;
 }
