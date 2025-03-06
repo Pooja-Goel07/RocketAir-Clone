@@ -3,7 +3,10 @@
     padding: 0;
     box-sizing: border-box;
 }
-
+/* header{
+    position: fixed;
+    z-index: 0;
+} */
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -101,10 +104,10 @@
 }
 .title-line {
     display: inline-block;
-    width: 51%;        /* Set width to 65% of the container */
-    height: 1px;       /* Thin horizontal line */
-    background-color: grey; /* Line color (change as needed) */
-    margin: 20px ;   /* Center the line and add spacing */
+    width: 51%;        
+    height: 1px;      
+    background-color: grey; 
+    margin: 20px ;   
     margin-left: 20px;
     margin-right: 19px;
 }
@@ -155,3 +158,63 @@ sup{
     justify-content: space-around;
     margin-right: 50px;
 }
+
+.left-footer-box{
+    width: 50%;
+    background-color: black;
+    height: 800px;color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid white;
+    border-left: none;
+    
+}
+.left-heading{
+    color: white;
+    font-family: Aeonikpro, sans-serif;
+    font-size: 50px;
+    font-weight: 400;margin: 0px 0px 16px;
+}
+.left-para{
+    text-align: center;
+    font-family: Aeonikpro, sans-serif;
+    font-weight: 548px;
+    line-height: 25px;
+}
+.footer-image{
+    margin: 80px;
+    background-image: url(footer-icon.png);
+    width: 260px;
+    height: 260px;
+    background-size: cover;
+}
+.email{
+    border-style: none solid solid none;
+    border-width: 0 0 1px 1px;
+    border-color: black black rgb(75, 75, 75);
+    background-color: black;width: 70%;
+}
+.subscribe{
+    border: 1px solid rgb(185, 185, 185);
+    border-radius: 20px;
+    background-color: black;
+    width: 130px;
+    height: 42px;
+    margin-top: 44px;
+    color: white;;
+    font-family: Aeonikpro, sans-serif;
+    font-size: 20px;
+    font-weight: 500;
+}
+input {
+    padding: 15px 0;
+    font-size: 16px;
+ }
+  
+input::placeholder {
+    color: rgb(181, 180, 180);
+    font-size: 16px;
+}
+
