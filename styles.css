@@ -162,29 +162,36 @@ sup{
 .left-footer-box{
     width: 50%;
     background-color: black;
-    height: 800px;color: white;
+    height: 770px;color: white;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     border: 2px solid white;
     border-left: none;
-    
+    padding: 40px 0px;
 }
 .left-heading{
     color: white;
-    font-family: Aeonikpro, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-size: 50px;
-    font-weight: 400;margin: 0px 0px 16px;
+    font-weight: 400;
+    margin: 0px 0px 16px;
+}
+.left-para{
+    
+    font-size: 15px;
 }
 .left-para{
     text-align: center;
-    font-family: Aeonikpro, sans-serif;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 548px;
-    line-height: 25px;
+    line-height: 23px;
 }
 .footer-image{
-    margin: 80px;
+    margin: 70px;
+    margin-top: 60px;
+    margin-bottom: 60px;
     background-image: url(footer-icon.png);
     width: 260px;
     height: 260px;
@@ -194,7 +201,8 @@ sup{
     border-style: none solid solid none;
     border-width: 0 0 1px 1px;
     border-color: black black rgb(75, 75, 75);
-    background-color: black;width: 70%;
+    background-color: black;
+    width: 70%;
 }
 .email:hover{
     border-color: black black rgb(202, 202, 202);
@@ -222,12 +230,13 @@ input::placeholder {
     border-radius: 20px;
     background-color: black;
     width: 130px;
-    height: 42px;
-    margin-top: 44px;
+    height: 40px;
+    margin-top: 40px;
     color: white;;
     font-family: Aeonikpro, sans-serif;
     font-size: 20px;
     font-weight: 500;
+    padding-bottom: 2px;
 }
 .subscribe:hover{
     background-color: white;
