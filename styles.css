@@ -3,10 +3,40 @@
     padding: 0;
     box-sizing: border-box;
 }
-/* header{
-    position: fixed;
-    z-index: 0;
-} */
+/* Hide scrollbar for Firefox */
+html {
+    scrollbar-width: none;    
+}
+
+/* Hide scrollbar for Chrome, Safari, Edge */
+::-webkit-scrollbar {
+    display: none;
+}
+
+/* Hide scrollbar for Internet Explorer */
+body {
+    -ms-overflow-style: none;
+}
+
+header{
+    position: fixed; 
+    top: 0;
+    width: 100%;
+    
+}
+main{
+    height: 800px;
+    height: 800px;width: 100%;width: 100%;
+    margin-top:67vh; 
+    position: sticky;
+    z-index: 2;
+    background-color: white;
+}
+footer{
+    position: sticky;
+    z-index: 2;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -167,9 +197,10 @@ sup{
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    border: 2px solid white;
+    border: 2px solid grey;
     border-left: none;
     padding: 40px 0px;
+    border-bottom: none;
 }
 .left-heading{
     color: white;
@@ -242,5 +273,62 @@ input::placeholder {
     background-color: white;
     color: black;
 }
+.right-footer-box{
+    background-color: rgb(0, 0, 0);
+    width: 50%;
+    height: 770px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 1px solid grey;
+    font-family: Aeonikpro, sans-serif;
+    border-left: none;
+    border-right: none;
+}
 
-
+.footer-content{
+    font-size: 33px;
+    font-weight: 400;
+    padding: 24px 30px ;
+    color: white;
+    cursor: pointer;
+    border: 1px solid grey;
+    border-style: none none solid none;
+}
+.footer-links{
+    padding: 16px 25px ;
+    display: flex;    
+    justify-content: space-between;
+}
+.footer-content:hover{
+    background-color: white;
+    color: black;
+    transition:linear background-color 1s;
+}
+.footer-circle{
+    height: 42px;
+    width: 42px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    padding: 8px;
+    margin-right: 22px;
+    display: inline-block;
+}
+.linkedin-logo{
+    border-radius: 80px;
+    height: 25px;
+    width: 25px;
+}
+.insta-logo{
+    border-radius: 80px;
+    height: 22px;
+    width: 22px;
+    margin-left: 2px;
+    margin-top: 2px;
+}
+.privacy-policy{
+    font-size: 17px;
+    color: gray;
+    font-family: Aeonikpro, sans-serif;
+    margin-top: 10px;
+}
